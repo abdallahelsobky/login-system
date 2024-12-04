@@ -1,0 +1,46 @@
+:root {
+  --main-color: #6f4e37;
+  --second-color: #fed8b1;
+}
+body {
+  background-color: var(--main-color);
+}
+
+h1 {
+  color: var(--second-color);
+}
+.form-control {
+  border-color: white !important;
+}
+.form-control:focus {
+  border-color: var(--second-color) !important;
+  outline: 0;
+  box-shadow: 0 0 0 0;
+  color: #fff !important;
+}
+input::placeholder {
+  color: var(--second-color) !important;
+}
+
+section .btn:hover {
+  color: var(--bs-btn-hover-color);
+  background-color: var(--second-color);
+  border-color: var(--bs-btn-hover-border-color);
+}
+
+section a:hover:not(form a) {
+  text-decoration: underline !important;
+}
+h2 {
+  color: #fed8b1 !important;
+}
+nav a {
+  border: 1px solid;
+}
+nav a:hover {
+  background-color: rgb(255, 193, 7);
+  color: white !important;
+}
+input {
+  color: #fff !important;
+}
